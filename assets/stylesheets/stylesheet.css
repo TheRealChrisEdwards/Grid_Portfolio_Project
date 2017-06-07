@@ -8,8 +8,48 @@ footer {
   text-align: center;
 }
 
-#portfolio_HomePage {
+.wrapper {
   display: grid;
+}
+
+.wrapper1 {
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.box {
+
+}
+
+.img-box {
+
+}
+
+.text-box {
+
+}
+
+.box1 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.box2 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.box3 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+
+.box4 {
+  grid-column: 3/span 3;
+  grid-row: 2/auto;
+}
+
+#portfolio_HomePage {
   background-color: #64B5F6;
   height: 800px;
 }
